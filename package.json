@@ -1,0 +1,32 @@
+{
+  "name": "chat-with",
+  "version": "1.0.0",
+  "description": "chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17nishad/Chat-With.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "socket.io"
+  ],
+  "author": "muhammad nishad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17nishad/Chat-With/issues"
+  },
+  "homepage": "https://github.com/17nishad/Chat-With#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
